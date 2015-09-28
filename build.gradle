@@ -1,0 +1,10 @@
+apply plugin: 'backport-plugin'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.maiflai:gradle-scalatest:0.5'
+    }
+}
